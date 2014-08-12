@@ -1,0 +1,199 @@
+
+/** hdrBanner **/
+
+#infront {
+	display:none;
+	position:absolute;
+	top:-10px;
+	right:3%;
+	width:250px;
+	height:150px;
+	overflow:visible;
+}
+@media (min-width: 768px) {#infront {display:block;}}
+
+.hdrBanner .outer,
+.hdrBanner .inner {
+	overflow:visible;
+}
+
+.btnHdrOrderLg {
+	position:relative;
+	top:40px;
+	font-size:18px;
+}
+@media (min-width: 992px) {.btnHdrOrderLg {top:60px;}}
+
+.btnHdrOrderLg span {
+	display:block;
+	font-size:14px;
+	color:#fff;
+}
+
+.btnSm {
+	padding:6px 40px;
+}
+
+/* steps */
+
+#steps {
+	margin-top:115px;
+}
+@media (min-width: 768px) {#steps {margin-top:85px;}}
+
+#steps .step {
+	margin-bottom:35px;
+}
+
+#steps .stepimg {
+	background:#ffffff; /* Old browsers */
+	background:-moz-linear-gradient(top, #ffffff 0%, #fefefe 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top, #ffffff 0%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top, #ffffff 0%,#fefefe 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top, #ffffff 0%,#fefefe 100%); /* IE10+ */
+	background:linear-gradient(to bottom, #ffffff 0%,#fefefe 100%); /* W3C */
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+	-webkit-border-top-left-radius:7px;
+	-webkit-border-top-right-radius:7px;
+	-moz-border-radius-topleft:7px;
+	-moz-border-radius-topright:7px;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	text-align:center;
+}
+
+#steps .stepimg .stepimg_main {width:261px; margin:0 auto;}
+@media (min-width: 768px) {#steps .stepimg .stepimg_main {margin:0;}}
+@media (min-width: 992px) {#steps .stepimg .stepimg_main {width:75%;}}
+
+#steps .stepimg .stepimg_arrow {display:none;}
+@media (min-width: 992px) {#steps .stepimg .stepimg_arrow {display:inline-block; width:27px; height:49px; margin-left:15px;}}
+/*@media (min-width: 1200px) {#steps .stepimg .stepimg_arrow {width:36px; height:65px; margin-left:20px;}}*/
+
+#steps .steptext {
+	background:#fefefe; /* Old browsers */
+	background:-moz-linear-gradient(top, #fefefe 0%, #ccd0f0 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ccd0f0)); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top, #fefefe 0%,#ccd0f0 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top, #fefefe 0%,#ccd0f0 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top, #fefefe 0%,#ccd0f0 100%); /* IE10+ */
+	background:linear-gradient(to bottom, #fefefe 0%,#ccd0f0 100%); /* W3C */
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#ccd0f0',GradientType=0 ); /* IE6-9 */
+	-webkit-border-bottom-right-radius:7px;
+	-webkit-border-bottom-left-radius:7px;
+	-moz-border-radius-bottomright:7px;
+	-moz-border-radius-bottomleft:7px;
+	border-bottom-right-radius:7px;
+	border-bottom-left-radius:7px;
+	padding:0 15px 25px 15px;
+}
+@media (min-width: 992px) {#steps .steptext {height:300px;}}
+
+#steps .steptext h3 {
+	font-family:Huxtable,Helvetica,Arial,sans-serif;
+	color:#333399;
+	text-align:center;
+	margin-top:45px;
+}
+
+#steps .steptext h4 {
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:20px !important;
+	color:#648dc7 !important;
+	margin-top:25px;
+}
+
+#steps .steptext ul {
+	margin-left:20px;
+}
+
+/* editorial2 */
+
+#editorial2 .outer-shadow {
+	width:100%;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:0px 0px 15px 0px rgba(150, 150, 150, 0.75);
+	-moz-box-shadow:0px 0px 15px 0px rgba(150, 150, 150, 0.75);
+	box-shadow:0px 0px 15px 0px rgba(150, 150, 150, 0.75);
+	padding:5px;
+	overflow:hidden;
+
+}
+
+#editorial2 .inner-padding {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	overflow:hidden;
+	position:relative;
+}
+
+#editorial2 .inner-padding .bgimg {
+	width:100%;
+	height:100%;
+}
+
+#editorial2 .inner-padding h5 {
+	font-family:"HandOfSean",Helvetica,Arial,sans-serif;
+	font-size:20px;
+	color:#663399;
+	position:absolute;
+	top:15px;
+	width:100%;
+	padding:0 20px;
+	text-align:center;
+}
+@media (min-width: 768px) {#editorial2 .inner-padding h5 {font-size:30px; top:40px;}}
+@media (min-width: 992px) {#editorial2 .inner-padding h5 {font-size:40px; left:40px; text-align:left;}}
+
+#editorial2 .inner-padding .text {
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	position:absolute;
+	top:70px;
+	width:100%;
+	padding:0 20px;
+	text-align:center;
+}
+@media (min-width: 768px) {#editorial2 .inner-padding .text {font-size:20px; top:100px;}}
+@media (min-width: 992px) {#editorial2 .inner-padding .text {font-size:26px; top:140px; left:40px; width:550px; text-align:left;}}
+/*@media (min-width: 1200px) {#editorial2 .inner-padding .text {font-size:32px; top:135px; width:700px;}}*/
+
+#editorial2 .inner-padding .promobtn {
+	position:absolute;
+	top:325px;
+	width:100%;
+	text-align:center;
+}
+@media (min-width: 768px) {#editorial2 .inner-padding .promobtn {top:260px; left:110px; text-align:left;}}
+@media (min-width: 992px) {#editorial2 .inner-padding .promobtn {top:260px; left:110px; text-align:left;}}
+/*@media (min-width: 1200px) {#editorial2 .inner-padding .promobtn {top:260px; left:170px; text-align:left;}}*/
+
+#editorial2 .inner-padding .promobtn img {
+	width:195px;
+	height:48px;
+}
+@media (min-width: 768px) {#editorial2 .inner-padding .promobtn img{width:260px; height:63px;}}
+@media (min-width: 992px) {#editorial2 .inner-padding .promobtn img{width:389px; height:95px;}}
+
+#editorial2 .inner-padding .bogo {
+	position:absolute;
+	top:130px;
+	width:100%;
+	text-align:center;
+}
+@media (min-width: 768px) {#editorial2 .inner-padding .bogo {text-align:right; top:initial; bottom:3%; padding-right:4%;}}
+@media (min-width: 992px) {#editorial2 .inner-padding .bogo {}}
+/*@media (min-width: 1200px) {#editorial2 .inner-padding .bogo {}}*/
+
+#editorial2 .inner-padding .bogo img {
+	width:199px;
+}
+@media (min-width: 768px) {#editorial2 .inner-padding .bogo img {width:249px;}}
+@media (min-width: 992px) {#editorial2 .inner-padding .bogo img {width:299px;}}
+/*@media (min-width: 1200px) {#editorial2 .inner-padding .bogo img {width:332px;}}*/
+

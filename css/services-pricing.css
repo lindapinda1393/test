@@ -1,0 +1,53 @@
+
+/** hdrBanner **/
+
+#infront {
+	display:none;
+	position:absolute;
+	top:-30px;
+	right:3%;
+	width:310px;
+	overflow:visible;
+}
+@media (min-width: 768px) {#infront {display:block;}}
+@media (min-width: 992px) {#infront {width:370px;}}
+/*@media (min-width: 1200px) {#infront {width:470px;}}*/
+
+/* steps */
+
+#products {
+	margin-top:50px;
+}
+
+#step1, #step2, #step3, #step4 {
+	margin-top:35px;
+	padding-bottom:30px;
+	border-bottom:1px solid #ccc;
+}
+
+#step4 {
+	border-bottom:none;
+}
+
+.stepimg {
+	width:80%;
+	margin:0 auto;
+}
+
+.stepimg img {
+	width:100%;
+	height:100%;
+}
+
+.steptext h2 { /* global */
+	font-family:Helvetica,Arial,sans-serif;
+	font-weight:600;
+}
+
+.steptext h3 {
+	padding-bottom:10px;
+}
+
+.steptext .learnmore {
+	text-align:center;
+}

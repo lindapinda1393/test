@@ -1,0 +1,76 @@
+
+/** hdrBanner **/
+
+#infront {
+	display:none;
+	position:absolute;
+	top:-9px;
+	right:3%;
+	width:200px;
+	overflow:visible;
+}
+@media (min-width: 768px) {#infront {display:block;}}
+@media (min-width: 992px) {#infront {top:-12px; width:250px;}}
+/*@media (min-width: 1200px) {#infront {top:-21px; width:303px;}}*/
+
+
+/* steps */
+
+#products {
+	margin-top:50px;
+}
+
+#step1, #step2 {
+	margin-top:35px;
+	padding-bottom:30px;
+	border-bottom:1px solid #ccc;
+}
+
+#step2 {
+	border-bottom:none;
+}
+
+.stepimg {
+	width:80%;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+.stepimg img {
+	width:100%;
+	height:100%;
+}
+
+.steptext h2 {
+	font-family:Helvetica,Arial,sans-serif;
+	font-weight:600;
+	white-space:nowrap;
+}
+
+.steptext ul {
+	margin-left:30px;
+}
+
+.steptext ul, .steptext li, .steptext p {
+	font-size:16px !important;
+}
+@media (min-width: 768px) {.steptext ul, .steptext li, .steptext p {font-size:18px !important;}}
+@media (min-width: 992px) {.steptext ul, .steptext li, .steptext p {}}
+/*@media (min-width: 1200px) {.steptext ul, .steptext li, .steptext p {font-size:24px;}}*/
+
+.steptext .availableapp {
+	text-align:center;
+	margin-top:30px;
+}
+@media (min-width: 992px) {.steptext .availableapp {margin-top:40px;}}
+/*@media (min-width: 1200px) {.steptext .availableapp {margin-top:60px;}}*/
+
+.steptext .availableapp .btnAppStore {
+	width:175px;
+	height:53px;
+}
+@media (min-width: 768px) {.steptext .availableapp .btnAppStore {width:200px; height:60px;}}
+@media (min-width: 992px) {.steptext .availableapp .btnAppStore {width:250px; height:75px;}}
+
+
+

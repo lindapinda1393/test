@@ -1,0 +1,79 @@
+
+/** hdrBanner **/
+
+#inback {
+	position:absolute;
+	top:-50px;
+	left:5%;
+	right:5%;
+	height:60px;
+	overflow:hidden;
+}
+@media (min-width: 480px) {#inback {left:auto;}}
+
+#infront {
+	display:none;
+	position:absolute;
+	top:-10px;
+	right:3%;
+	width:250px;
+	height:150px;
+	overflow:visible;
+}
+@media (min-width: 768px) {#infront {display:block;}}
+
+.hdrBanner .outer,
+.hdrBanner .inner {
+	overflow:visible;
+}
+
+.btnHdrOrderLg {
+	position:relative;
+	top:40px;
+	font-size:18px;
+}
+@media (min-width: 992px) {.btnHdrOrderLg {top:60px;}}
+
+.btnHdrOrderLg span {
+	display:block;
+	font-size:14px;
+	color:#fff;
+}
+
+.btnSm {
+	padding:6px 40px;
+}
+
+/** content **/
+
+#faq {
+	margin-top:30px;
+}
+
+h2 {
+	margin-top:20px;
+}
+@media (min-width: 768px) {h2 {margin-top:30px;}}
+@media (min-width: 992px) {h2 {margin-top:36px;}}
+/*@media (min-width: 1200px) {h2 {margin-top:40px;}}*/
+
+.row h3,
+.row p {
+	padding-left:0;
+}
+@media (min-width: 768px) {.row h3, .row p {padding-left:30px;}}
+@media (min-width: 992px) {.row h3, .row p {padding-left:36px;}}
+/*@media (min-width: 1200px) {.row h3, .row p {padding-left:40px;}}*/
+
+.row h3 {
+	margin-top:20px;
+	padding-top:20px;
+	border-top:1px solid #bfbfbf;
+}
+@media (min-width: 768px) {.row h3 {margin-top:30px; padding-top:30px;}}
+@media (min-width: 992px) {.row h3 {margin-top:40px; padding-top:40px;}}
+
+#faq1.row h3 {
+	padding-top:0;
+	border-top:none;
+}
